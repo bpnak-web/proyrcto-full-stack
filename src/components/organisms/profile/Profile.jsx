@@ -37,7 +37,7 @@ export default function Profile() {
   if (loading) {
     return (
       <div className="flex justify-center items-center h-64">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-500"></div>
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
       </div>
     );
   }
@@ -48,7 +48,7 @@ export default function Profile() {
         <p className="text-xl text-gray-600">log in to view your profile</p>
         <button
           onClick={() => navigate('/login')}
-          className="px-6 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium rounded-lg hover:opacity-90 transition-opacity"
+          className="px-6 py-2 bg-gradient-to-r from-brand-blue to-brand-green text-white font-medium rounded-lg hover:opacity-90 transition-opacity"
         >
           Go to Login
         </button>
@@ -60,7 +60,7 @@ export default function Profile() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="bg-white shadow-lg rounded-2xl overflow-hidden">
         {/* Header/Cover background */}
-        <div className="h-32bg-gradient-to-r from-brand-blue to-brand-green text-transparent bg-clip-text"></div>
+        <div className="h-32 bg-gradient-to-r from-brand-blue to-brand-green"></div>
 
         <div className="flex flex-col sm:flex-row items-center sm:items-start px-6 -mt-12 pb-6">
           {/* Avatar */}
@@ -72,7 +72,7 @@ export default function Profile() {
 
           {/* User Info */}
           <div className="mt-4 sm:mt-14 sm:ml-6 text-center sm:text-left flex-1">
-            <h1 className="text-2xl font-bold text-gray-900">
+            <h1 className="text-3xl font-bold text-transparent bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text">
               {user.displayName || 'Set your display name'}
             </h1>
             <p className="text-sm text-gray-500 mt-1">{user.email}</p>

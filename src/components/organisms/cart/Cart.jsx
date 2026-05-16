@@ -16,7 +16,7 @@ export default function Cart() {
     return (
       <section className="max-w-4xl mx-auto px-4 py-12">
         <div className="bg-white rounded-2xl border border-gray-200 p-10 text-center">
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">Tu carrito esta vacio</h2>
+          <h1 className="text-3xl font-bold text-transparent bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text mb-2 pb-1">Tu carrito esta vacio</h1>
           <p className="text-gray-500 mb-6">
             Agrega productos desde la galeria para iniciar la compra.
           </p>
@@ -33,7 +33,7 @@ export default function Cart() {
 
   return (
     <section className="max-w-6xl mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold text-gray-900 mb-6">Carrito de compras</h2>
+      <h1 className="text-4xl font-bold text-transparent bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text mb-6 pb-1">Carrito de compras</h1>
       <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-6">
         <div className="bg-white rounded-2xl border border-gray-200 divide-y divide-gray-100">
           {items.map(({ product, quantity }) => {

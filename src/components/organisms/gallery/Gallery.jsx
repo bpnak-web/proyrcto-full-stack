@@ -56,7 +56,7 @@ export default function Gallery() {
     <section className="p-6">
       <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-6">
         <div>
-          <h2 className="text-2xl font-bold">Nuestros Productos</h2>
+          <h1 className="text-3xl font-bold text-transparent bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text pb-1">Nuestros Productos</h1>
           <p className="text-sm text-gray-500 mt-1">
             {filteredProducts.length} resultado(s)
           </p>

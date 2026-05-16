@@ -32,7 +32,7 @@ export default function Checkout() {
     return (
       <section className="max-w-3xl mx-auto px-4 py-12">
         <div className="bg-white border border-gray-200 rounded-2xl p-10 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-2">!Compra realizada¡</h2>
+          <h1 className="text-4xl font-bold text-transparent bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text mb-2 pb-1">!Compra realizada¡</h1>
           <p className="text-gray-500 mb-6">
             Este checkout es simulado para el taller. Puedes personalizar este flujo.
           </p>
@@ -51,9 +51,9 @@ export default function Checkout() {
     return (
       <section className="max-w-3xl mx-auto px-4 py-12">
         <div className="bg-white border border-gray-200 rounded-2xl p-10 text-center">
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">
+          <h1 className="text-3xl font-bold text-transparent bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text mb-2 pb-1">
             No hay productos para pagar
-          </h2>
+          </h1>
           <p className="text-gray-500 mb-6">Agrega productos al carrito.</p>
           <Link
             to="/gallery"
@@ -68,7 +68,7 @@ export default function Checkout() {
 
   return (
     <section className="max-w-6xl mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold text-gray-900 mb-6">Checkout (simulado)</h2>
+      <h1 className="text-4xl font-bold text-transparent bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text mb-6 pb-1">Checkout (simulado)</h1>
       <div className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] gap-6">
         <form
           onSubmit={handleSubmit}
