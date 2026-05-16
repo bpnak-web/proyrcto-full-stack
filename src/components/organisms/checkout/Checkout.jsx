@@ -32,7 +32,7 @@ export default function Checkout() {
     return (
       <section className="max-w-3xl mx-auto px-4 py-12">
         <div className="bg-white border border-gray-200 rounded-2xl p-10 text-center">
-          <h2 className="text-3xl font-bold text-gray-900 mb-2">Compra confirmada</h2>
+          <h2 className="text-3xl font-bold text-gray-900 mb-2">!Compra realizada¡</h2>
           <p className="text-gray-500 mb-6">
             Este checkout es simulado para el taller. Puedes personalizar este flujo.
           </p>
@@ -54,7 +54,7 @@ export default function Checkout() {
           <h2 className="text-2xl font-bold text-gray-900 mb-2">
             No hay productos para pagar
           </h2>
-          <p className="text-gray-500 mb-6">Agrega productos al carrito antes de ir al checkout.</p>
+          <p className="text-gray-500 mb-6">Agrega productos al carrito.</p>
           <Link
             to="/gallery"
             className="inline-flex px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:opacity-90"

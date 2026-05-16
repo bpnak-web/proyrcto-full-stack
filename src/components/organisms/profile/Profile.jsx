@@ -45,8 +45,8 @@ export default function Profile() {
   if (!user) {
     return (
       <div className="flex flex-col items-center justify-center h-64 space-y-4">
-        <p className="text-xl text-gray-600">Please log in to view your profile</p>
-        <button 
+        <p className="text-xl text-gray-600">log in to view your profile</p>
+        <button
           onClick={() => navigate('/login')}
           className="px-6 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white font-medium rounded-lg hover:opacity-90 transition-opacity"
         >
@@ -60,8 +60,8 @@ export default function Profile() {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       <div className="bg-white shadow-lg rounded-2xl overflow-hidden">
         {/* Header/Cover background */}
-        <div className="h-32 bg-gradient-to-r from-purple-400 via-pink-500 to-red-500"></div>
-        
+        <div className="h-32bg-gradient-to-r from-brand-blue to-brand-green text-transparent bg-clip-text"></div>
+
         <div className="flex flex-col sm:flex-row items-center sm:items-start px-6 -mt-12 pb-6">
           {/* Avatar */}
           <div className="w-24 h-24 rounded-full bg-white p-1 shadow-md">
@@ -69,7 +69,7 @@ export default function Profile() {
               {user.displayName ? user.displayName.charAt(0).toUpperCase() : user.email?.charAt(0).toUpperCase() || 'U'}
             </div>
           </div>
-          
+
           {/* User Info */}
           <div className="mt-4 sm:mt-14 sm:ml-6 text-center sm:text-left flex-1">
             <h1 className="text-2xl font-bold text-gray-900">
@@ -103,8 +103,8 @@ export default function Profile() {
             </div>
             {/* Add more info later if available connected logic */}
             <div className="sm:col-span-2">
-               <dt className="text-sm font-medium text-gray-500">Email Verified</dt>
-               <dd className="mt-1 text-sm text-gray-900">{user.emailVerified ? 'Yes' : 'No'}</dd>
+              <dt className="text-sm font-medium text-gray-500">Email Verified</dt>
+              <dd className="mt-1 text-sm text-gray-900">{user.emailVerified ? 'Yes' : 'No'}</dd>
             </div>
           </dl>
         </div>
