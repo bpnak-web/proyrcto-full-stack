@@ -22,7 +22,7 @@ export default function Cart() {
           </p>
           <Link
             to="/gallery"
-            className="inline-flex px-6 py-3 rounded-lg bg-purple-600 text-white font-medium hover:opacity-90"
+            className="inline-flex px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:opacity-90"
           >
             Ir a productos
           </Link>
@@ -94,7 +94,7 @@ export default function Cart() {
           </div>
           <Link
             to="/checkout"
-            className="w-full inline-flex justify-center px-4 py-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold hover:opacity-90"
+            className="w-full inline-flex justify-center px-4 py-3 rounded-lg bg-gradient-to-r from-blue-500 to-emerald-500 text-white font-semibold hover:opacity-90"
           >
             Ir a checkout
           </Link>

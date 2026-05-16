@@ -47,7 +47,7 @@ export default function Gallery() {
   if (loading) {
     return (
       <div className="flex justify-center items-center h-64">
-        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-purple-500"></div>
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
       </div>
     );
   }
@@ -66,7 +66,7 @@ export default function Gallery() {
           value={searchTerm}
           onChange={handleSearchChange}
           placeholder="Buscar por nombre o descripción..."
-          className="w-full sm:w-80 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-200 focus:border-purple-500"
+          className="w-full sm:w-80 px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500"
         />
       </div>
 
@@ -100,7 +100,7 @@ export default function Gallery() {
                   onClick={() => goToPage(page)}
                   className={`w-9 h-9 rounded-lg text-sm font-medium border ${
                     page === currentPage
-                      ? "border-purple-600 bg-purple-600 text-white"
+                      ? "border-blue-600 bg-blue-600 text-white"
                       : "border-gray-300 hover:bg-gray-50"
                   }`}
                 >

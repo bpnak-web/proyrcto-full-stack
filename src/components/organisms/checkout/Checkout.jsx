@@ -38,7 +38,7 @@ export default function Checkout() {
           </p>
           <Link
             to="/gallery"
-            className="inline-flex px-6 py-3 rounded-lg bg-purple-600 text-white font-medium hover:opacity-90"
+            className="inline-flex px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:opacity-90"
           >
             Volver a la galeria
           </Link>
@@ -57,7 +57,7 @@ export default function Checkout() {
           <p className="text-gray-500 mb-6">Agrega productos al carrito antes de ir al checkout.</p>
           <Link
             to="/gallery"
-            className="inline-flex px-6 py-3 rounded-lg bg-purple-600 text-white font-medium hover:opacity-90"
+            className="inline-flex px-6 py-3 rounded-lg bg-blue-600 text-white font-medium hover:opacity-90"
           >
             Ir a productos
           </Link>
@@ -83,7 +83,7 @@ export default function Checkout() {
               name="fullName"
               value={formData.fullName}
               onChange={handleChange}
-              className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-200 focus:border-purple-500"
+              className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500"
             />
           </div>
           <div>
@@ -94,7 +94,7 @@ export default function Checkout() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-200 focus:border-purple-500"
+              className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500"
             />
           </div>
           <div>
@@ -105,12 +105,12 @@ export default function Checkout() {
               name="address"
               value={formData.address}
               onChange={handleChange}
-              className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-purple-200 focus:border-purple-500"
+              className="w-full px-4 py-2 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-200 focus:border-blue-500"
             />
           </div>
           <button
             type="submit"
-            className="w-full mt-2 px-6 py-3 rounded-lg bg-gradient-to-r from-purple-500 to-pink-500 text-white font-semibold hover:opacity-90"
+            className="w-full mt-2 px-6 py-3 rounded-lg bg-gradient-to-r from-blue-500 to-emerald-500 text-white font-semibold hover:opacity-90"
           >
             Confirmar compra simulada
           </button>

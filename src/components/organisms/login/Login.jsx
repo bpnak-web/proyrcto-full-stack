@@ -65,10 +65,10 @@ const Login = () => {
 
           {/* Input de Email */}
           <div className="relative group">
-            <label className="block text-slate-400 text-lg mb-1 group-focus-within:text-blue-500 transition-colors">
+            <label className="block text-slate-400 text-lg mb-1 group-focus-within:text-emerald-500 transition-colors">
               Email
             </label>
-            <div className="relative border-b border-gray-200 group-focus-within:border-blue-500 transition-all">
+            <div className="relative border-b border-gray-200 group-focus-within:border-emerald-500 transition-all">
               <input
                 type="email"
                 name="email"
@@ -87,10 +87,10 @@ const Login = () => {
 
           {/* Input de Password */}
           <div className="relative group">
-            <label className="block text-slate-400 text-lg mb-1 group-focus-within:text-blue-500 transition-colors">
+            <label className="block text-slate-400 text-lg mb-1 group-focus-within:text-emerald-500 transition-colors">
               Password
             </label>
-            <div className="relative border-b border-gray-200 group-focus-within:border-blue-500 transition-all">
+            <div className="relative border-b border-gray-200 group-focus-within:border-emerald-500 transition-all">
               <input
                 type="password"
                 name="password"
@@ -99,7 +99,7 @@ const Login = () => {
                 className="w-full py-2 bg-transparent focus:outline-none text-slate-700 pr-10"
                 required
               />
-              <span className="absolute right-0 top-2 text-slate-300 cursor-pointer hover:text-blue-500 transition-colors">
+              <span className="absolute right-0 top-2 text-slate-300 cursor-pointer hover:text-emerald-500 transition-colors">
                 <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" />
                 </svg>
@@ -112,11 +112,11 @@ const Login = () => {
             <label className="flex items-center space-x-3 cursor-pointer">
               <input
                 type="checkbox"
-                className="w-5 h-5 border-gray-300 rounded focus:ring-blue-500 transition-all"
+                className="w-5 h-5 border-gray-300 rounded focus:ring-emerald-500 transition-all"
               />
               <span className="text-lg">remember me?</span>
             </label>
-            <a href="#" className="text-blue-500 hover:text-blue-600 transition-colors text-lg">
+            <a href="#" className="text-blue-600 hover:text-emerald-500 transition-colors text-lg">
               forgot password?
             </a>
           </div>
@@ -124,7 +124,7 @@ const Login = () => {
           {/* Botón de Login */}
           <button
             type="submit"
-            className="w-3/5 py-4 btn-dna hover:bg-blue-700 text-white font-bold rounded-xl flex items-center justify-center space-x-3 transition-all shadow-lg shadow-blue-200 active:scale-95"
+            className="w-3/5 py-4 btn-dna text-white font-bold rounded-xl flex items-center justify-center space-x-3 transition-all active:scale-95"
           >
             <span className="text-xl">Login</span>
             <svg
