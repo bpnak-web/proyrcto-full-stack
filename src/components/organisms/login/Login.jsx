@@ -51,7 +51,7 @@ const Login = () => {
             {/* Icono similar al de la imagen */}
             <img src={smile} alt="Smile Icon" className="w-[64px] h-[64px]" />
           </div>
-          <h1 className="text-4xl font-bold text-slate-800 mb-2 bg-gradient-to-r from-brand-blue">Welcome!</h1>
+          <h1 className="text-4xl font-bold text-transparent bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text mb-2">Welcome!</h1>
           <p className="text-slate-400 text-lg">Sign in to your account</p>
         </div>
 

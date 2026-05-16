@@ -72,7 +72,7 @@ const Register = () => {
         <div className="p-6 md:p-10">
 
           <header className="mb-6 text-center">
-            <h2 className="text-3xl font-bold text-gray-900 tracking-tight">Crear cuenta</h2>
+            <h1 className="text-4xl font-bold text-transparent bg-gradient-to-r from-brand-blue to-brand-green bg-clip-text tracking-tight pb-1">Crear cuenta</h1>
             <p className="text-gray-500 text-sm mt-1">Únete a nuestra comunidad hoy mismo</p>
           </header>
 
