@@ -144,7 +144,7 @@ const Register = () => {
                     name="password"
                     required
                     className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 outline-none transition-all"
-                    placeholder="••••••••"
+                    placeholder="user"
                     onChange={handleChange}
                   />
                   <p className="text-[10px] text-gray-400 mt-1 italic">Mínimo 8 caracteres (letras y números).</p>
@@ -157,7 +157,7 @@ const Register = () => {
                     name="confirmPassword"
                     required
                     className="w-full px-4 py-2.5 rounded-lg border border-gray-300 focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-600 outline-none transition-all"
-                    placeholder="••••••••"
+                    placeholder="password"
                     onChange={handleChange}
                   />
                 </div>
